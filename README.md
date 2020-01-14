@@ -1,2 +1,2 @@
 # Eticaret-aspMvc
-Eticaret uygulamasını  aspmvc  yapısında yapmaya çaılısavam
+Eticaret uygulamasını  asp mvc   :)
