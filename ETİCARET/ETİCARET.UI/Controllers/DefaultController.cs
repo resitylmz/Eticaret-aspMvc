@@ -11,7 +11,7 @@ namespace ETİCARET.UI.Controllers
         // GET: Default
         public ActionResult Index()
         {
-            return View("Anasayfa");
+            return View();
         }
     }
 }
