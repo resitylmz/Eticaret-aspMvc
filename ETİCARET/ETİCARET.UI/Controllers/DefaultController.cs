@@ -13,5 +13,9 @@ namespace ETİCARET.UI.Controllers
         {
             return View();
         }
+        public ActionResult İletisim()
+        {
+            return  View("İletisim");
+        }
     }
 }

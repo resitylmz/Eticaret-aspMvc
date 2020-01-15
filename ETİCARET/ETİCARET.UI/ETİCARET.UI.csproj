@@ -109,6 +109,7 @@
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Urunler\Urunler.cshtml" />
     <Content Include="Views\Urunler\UrunDetay.cshtml" />
+    <Content Include="Views\Default\İletisim.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
