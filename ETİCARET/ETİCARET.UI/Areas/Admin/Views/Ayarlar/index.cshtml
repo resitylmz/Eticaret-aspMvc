@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-md-12">
+    <div class="row">
+
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    Ayarlar
+                </header>
+                <div class="panel-body">
+                    <div class="position-center1">
+                        <form class="form-horizontal" role="form" method="post" action="/Ayarlar/AyarGuncelle">
+                            <div class="form-group">
+                                <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">Sitenin Adı</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="titleName" placeholder="Lütfen sitenin adını giriniz...">
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Meta Keywords</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="siteKelime" placeholder="Lütfen Keywords giriniz..">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Meta Decription</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="siteAciklama" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Telefon</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="telefon" placeholder="Lütfen Telefonu giriniz..">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Eposta</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="email" placeholder="Lütfen eposta adresini giriniz..">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Adres</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="6" name="adress"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Smtp Email</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="stpEmail" id="inputPassword1" placeholder="Lütfen smtp email giriniz..">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Smtp sifre</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="smtp" placeholder="Lütfen smtp şifresini giriniz..">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">Smtp port</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" name="port" id="inputPassword1" placeholder="Lütfen smtp  potrunu   giriniz..">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-lg-offset-2 col-lg-10">
+                                    <button type="submit" class="btn btn-danger">Kaydet</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+

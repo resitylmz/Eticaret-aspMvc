@@ -42,6 +42,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ETİCARET.DAL\ETİCARET.DAL.csproj">
+      <Project>{c81db62b-7287-4451-be40-b0edef1f4ee1}</Project>
+      <Name>ETİCARET.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ETİCARET.MODEL\ETİCARET.MODEL.csproj">
+      <Project>{17f85474-5685-4772-bc83-a2b5378e5bb1}</Project>
+      <Name>ETİCARET.MODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
